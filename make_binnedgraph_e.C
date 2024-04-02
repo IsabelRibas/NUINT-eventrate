@@ -168,7 +168,7 @@ void make_binnedgraph_e()
     //Criando legenda
     TLegend *legend = new TLegend(0.7, 0.7, 0.9, 0.9);
     legend->AddEntry(hist, "Standard", "f");
-    legend->AddEntry(histBSM_2pi, "#phi_{#mu#tau} = 0 ", "f");//já considera 10^9
+    legend->AddEntry(histBSM_2pi, "#phi_{#mu#tau} = 0 ", "f");
     legend->AddEntry(histBSM_3pi5, "#phi_{#mu#tau} = 3#pi/2", "f");
     legend->AddEntry(histBSM_pi, "#phi_{#mu#tau} = #pi", "f");
     legend->AddEntry(histBSM_pi5, "#phi_{#mu#tau} = #pi/2", "f");
