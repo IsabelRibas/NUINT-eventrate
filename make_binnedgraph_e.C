@@ -1,4 +1,4 @@
-void make_binnedgraph_e()
+rvoid make_binnedgraph_e()
 {
     vector<Double_t> vecbinContents; //sm
     vector<Double_t> vecbinContentsBSM_2pi;//criei para cada bsm
@@ -11,7 +11,7 @@ void make_binnedgraph_e()
     vector<Double_t> vecbinErrorsBSM_3pi5;
     vector<Double_t> vecbinErrorsBSM_pi;
     vector<Double_t> vecbinErrorsBSM_pi5;
-    //grafico de aparecimento do eletron do mutau comparado com o modelo padrão.
+    //grafico de aparecimento do neutrino do eletron do mutau comparado com o modelo padrão.
     fstream file;//sm
     fstream fileBSM_2pi;
     fstream fileBSM_3pi5;
