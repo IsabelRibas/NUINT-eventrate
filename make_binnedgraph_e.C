@@ -125,7 +125,7 @@ void make_binnedgraph_e()
    
 
     //título 
-    histBSM_2pi->SetTitle("Event rate #times energy in the #nu_{e} appearance channel with c_{#tau#mu}");
+    histBSM_2pi->SetTitle("Event rate #times energy in the #nu_{e} appearance channel with c_{#mu#tau}");
     //Definindo cor da linha
     hist->SetLineColor(kBlack);//cor da linha do sm
     histBSM_2pi->SetLineColor(kRed);
